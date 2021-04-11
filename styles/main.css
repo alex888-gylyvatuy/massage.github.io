@@ -18,13 +18,14 @@ p{
 }
 
 .container{
-    max-width: 1110px;
+    max-width: 1980px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
 /*TOP PANEL*/
 /*****************************************************************************************/
+
 .top_panel{
     height:90px;
     width:100%;
