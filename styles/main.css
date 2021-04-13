@@ -25,7 +25,6 @@ p{
 
 /*TOP PANEL*/
 /*****************************************************************************************/
-
 .top_panel{
     height:90px;
     width:100%;
@@ -52,6 +51,7 @@ p{
 
 /*COMFORT*/
 /*****************************************************************************************/
+
 .comfort img{
     margin-top: 80px;
 }
@@ -88,8 +88,7 @@ p{
 /*****************************************************************************************/
 
 .our_services{
-    margin-top: 300px;
-    
+    margin-top: 150px;
 }
 
 .our_services h1{
@@ -133,12 +132,10 @@ p{
     font-weight:300;
 }
 
-
-
 /*WHO WORK*/
 /*****************************************************************************************/
 .who_work{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .who_work h1{
@@ -149,7 +146,6 @@ p{
 
 .who_work img{
     width: 600px;
-    height: 580px;
     float: right;
 }
 
@@ -190,7 +186,7 @@ p{
 /*REVIEWS*/
 /*****************************************************************************************/
 .reviews{
-    margin-top: 700px;
+    margin-top: 750px;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -215,7 +211,7 @@ p{
 
 .reviews_block_1{
     border: 2px solid black;
-    width: 500px;
+    width: 550px;
     height: 150px;
     border-radius: 90px;
     background-color: #E7E7E7;
@@ -230,7 +226,7 @@ p{
 
 .reviews_block_2{
     border: 2px solid black;
-    width: 500px;
+    width: 550px;
     height: 150px;
     border-radius: 90px;
     background-color: #E7E7E7;
@@ -241,18 +237,18 @@ p{
 /*************************************************/
 .reviews_text{
     float: right;
-    margin-right: 60px;
+    margin-right: 40px;
     margin-top: 0px;
 }
 
 .reviews_text h1{
-    font-size: 23px;
+    font-size: 22px;
     text-align: left;
     margin-bottom: 0px;
 }
 
 .reviews_text p{
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 4px;
 }
 /*************************************************/
@@ -263,13 +259,13 @@ p{
 }
 
 .reviews_text_2 h1{
-    font-size: 23px;
+    font-size: 22px;
     text-align: left;
     margin-bottom: 0px;
 }
 
 .reviews_text_2 p{
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 4px;
 }
 
@@ -287,7 +283,6 @@ p{
 
 .enjoy img{
     width: 580px;
-    height: 450px;
     float:left;
 }
 
@@ -298,7 +293,7 @@ p{
 
 .new_client{
     border:2px solid #FC999D;
-    width:400px;
+    width:500px;
     height:70px;
     border-radius: 100px;
     float: right;
@@ -310,5 +305,6 @@ p{
     font-size: 25px;
     text-align: center;
     margin-top: 7px;
+    margin-bottom: 0px;
 }
 

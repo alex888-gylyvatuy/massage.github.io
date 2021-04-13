@@ -1,908 +1,570 @@
 @import "../styles/main.css";
 
-@media screen and (min-width : 1920px) {
-
-    body{
-        background-image: url("../img/bg.png") no-repeat;
+@media (min-width: 1200px)
+{
+    .container{
+        min-width: 1200px;
     }
 
+
+    
+}
+
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+@media (min-width: 992px) and (max-width: 1199px) { 
     .container{
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 0 10px;
-    } 
+        max-width: 1199px;
+        min-width: 992px;
+    }
+
+    
+}
+
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .container{
+        max-width: 991px;
+        min-width: 768px;
+    }
 
     /*TOP PANEL*/
     /*****************************************************************************************/
-
-    .top_panel{
-        height:110px;
-        width:100%;
+    .top_panel h1{
+        margin-top: 32px;
+        font-size: 19px;
+        margin-right: 100px;
+    }
+    
+    .top_panel h2{
+        font-size:19px;
+        margin-top: 32px;
     }
 
     .top_panel img{
-        width: 85px;
-        height: 65px;
-        margin-top: 25px;
-    }
-    .top_panel h1{
-        margin-right: 520px;
-        margin-top: 30px;
-        font-size: 40px;
-    }
-
-    .top_panel h2{
-        font-size:40px;
-        margin-right: 10px;
+        width: 62px;
+        height: 48px;
+        margin-top: 22px;
     }
 
     /*COMFORT*/
     /*****************************************************************************************/
+
+    .comfort img{
+        margin-top: 50px;
+    }
+
     .img1{
-        width: 800px;
+        width: 350px;
     }
 
     .comfort h1{
-        float:right;
-        font-size:45px;
-        margin-top: 190px;
-        margin-right: 200px;
-        font-weight:400;
+        font-size:19px;
+        margin-right: 30px;
+        margin-top: 80px;
     }
 
     .thanks_block{
-        float:right;
-        text-align: center;
-        border-radius: 100px;
-        width:590px;
-        height:120px;
-        border:2px solid #FC999D;
-        margin-right: 320px;
-        margin-top: -140px;
-    }
-
-    .thanks_block h2{
-        font-size:45px;
-        margin-top: 30px;
+        width:200px;
+        height:50px;
+        font-size:10px;
+        margin-right: 140px;
+        margin-top: -100px;
     }
 
     /*OUR SERVICE*/
     /*****************************************************************************************/
-    .our_services{
-        margin-top: 400px; 
-    }
 
     .our_services h1{
-        font-size:55px;
-        text-align: center;
-        font-weight:500;
+        font-size:19px;
     }
 
     .our_services p{
-        font-size:40px;
-        text-align: center;
-        font-weight:400;
+        font-size:19px;
+    }
+    
+    .our_services img{
+        width:170px;
+        height: 170px;
     }
 
-    .our_services img{
-        width:400px;
-        height: 400px;
-        margin: 70px;
+    .servece_list{
+        margin-left: 30px;
     }
 
     .servece_list p{
-        font-size:40px;
-        font-weight:500;
+        font-size:18px;
     }
 
     .servece_price{
-        border:2px solid #FC999D;
-        width:1200px;
-        height:90px;
+        width:500px;
+        height:80px;
         border-radius: 100px;
         margin: auto;
     }
 
+    .servece_price h1{
+        margin-top: 26px;
+    }
+
     /*WHO WORK*/
     /*****************************************************************************************/
+
     .who_work h1{
-        font-size: 50px;
+        font-size: 19px;
     }
 
     .who_work img{
-        width: 800px;
-        height: 780px;
+        width: 300px;
         float: right;
-        margin-right: 20px;
+        margin-right: 90px;
     }
 
-    .who_text {
-        float: left;
-    }
-    
     .who_text h1{
-        font-size: 45px;
-        margin-left: 80px;
+        font-size: 16px;
     }
     
     .who_text p{
-        font-size: 32px;
+        font-size: 16px;
+    }
+
+    .who_list img{
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .who_list p{
+        padding-top: 15px;
+        font-size: 13px;
+    }
+
+    /*REVIEWS*/
+    /*****************************************************************************************/  
+    
+    .reviews{
+        margin-top: 380px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .reviews h1{
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .reviews img{
+        width: 80px;
+        height: 80px;
+        margin-top:10px;
+        margin-left: 10px;
+        margin-right: 0px;
+     }
+
+    .reviews_main_block_1{
+        display: flex;
     }
     
+    .reviews_block_1{
+        width: 350px;
+        height: 100px;
+        margin: 20px;
+    }
+    
+    .reviews_main_block_2{
+        display: flex;
+        margin-top: 40px;
+    }
+    
+    .reviews_block_2{
+        width: 350px;
+        height: 100px;
+        margin: 20px;
+    }
+    
+    /*************************************************/
+    .reviews_text{
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+    
+    .reviews_text h1{
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    
+    .reviews_text p{
+        font-size: 9px;
+        margin-top: 4px;
+    }
+    /*************************************************/
+    .reviews_text_2{
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+    
+    .reviews_text_2 h1{
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    
+    .reviews_text_2 p{
+        font-size: 9px;
+        margin-top: 4px;
+    }
+
+    /*ENJOY*/
+    /*****************************************************************************************/
+
+    .enjoy{
+        margin-top: 190px;
+    }
+
+    .enjoy h1{
+        font-size: 17px;
+    }
+
+    .enjoy img{
+        width: 380px;
+    }
+
+    .enjoy p{
+        font-size: 17px;
+    }
+
+    .new_client{
+        border:2px solid #FC999D;
+        width:280px;
+        height:70px;
+        border-radius: 100px;
+        float: right;
+        margin-top: 130px;
+        background-color: #D9CAC7;
+    }
+    
+    .new_client p{
+        font-size: 13px;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+}
+
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+@media (max-width: 575px) { 
+    .container{
+        max-width: 575px;
+    }
+
+    /*TOP PANEL*/
+    /*****************************************************************************************/
+    .top_panel{
+        height:90px;
+        width:100%;
+    }
+
+    .top_panel img{
+        width: 60px;
+        height: 45px;
+        margin-top: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top_panel h1{
+        display: none;
+    }
+
+    .top_panel h2{
+        font-size:18px;
+        text-decoration:none;
+        margin-top: 34px;
+        margin-right:30px;
+    }
+
+    
+    /*COMFORT*/
+    /*****************************************************************************************/
+    .comfort img{
+        margin-top: 20px;
+    }
+
+    .img1{
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    .comfort h1{
+        font-size:15px;
+        margin-top: 10px;
+        margin-right: 100px;
+    }
+
+    .thanks_block{
+        float:center;
+        width:200px;
+        height:50px;
+        font-size:10px;
+        margin-right: 100px;
+        margin-top: 10px;
+    }
+
+    /*OUR SERVICE*/
+    /*****************************************************************************************/
+
+    .our_services{
+        margin-top: 250px;
+    }
+
+    .our_services h1{
+        font-size:15px;
+        text-align: center;
+        font-weight:500;
+    }
+
+    .our_services img{
+        width:60px;
+        height: 60px;
+        float: left;
+        margin-left: -40px;
+    }
+
+    .our_services p{
+        font-size:13px;
+    }
+
+    .servece_list{
+        display: block;
+        flex-wrap: nowrap;
+        margin-left: 0px;
+        justify-content:center;
+    }
+
+    .servece_list figure{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .servece_list figure p{
+        font-size:15px;
+        margin-left: 50px;
+    }
+
+    .servece_price{
+        width:250px;
+        height:55px;
+        margin: auto;
+    }
+
+    .servece_price h1{
+        font-size: 13px;
+    }
+
+    /*WHO WORK*/
+    /*****************************************************************************************/
+    .who_work{
+        margin-top: 100px;
+    }
+
+    .who_work h1{
+        text-align: center;
+        font-size: 15px;
+        font-weight:450;
+    }
+
+    .who_work img{
+        width: 210px;
+        height: 210px;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .who_text h1{
+        font-size: 13px;
+        margin-top: 0px;
+        text-align: left;
+        float:center;
+        margin-left: 10px;
+    }
+    
+    .who_text p{
+        text-align: left;
+        font-size: 13px;
+        float:center;
+        margin-left: 10px;
+    }
+
     .who_list{
         display: block;
         font-size: 22px;
     }
 
     .who_list img{
-        width: 80px;
-        height: 80px;
+        width: 30px;
+        height: 30px;
         float: left;
+        margin-right: 0px;
+    }
+
+    .who_list p{
+        text-align: center;
+        margin-top: -30px;
+    }
+    
+
+    /*REVIEWS*/
+    /*****************************************************************************************/   
+    .reviews{
+        margin-top:550px;
+        display: block;
+    }
+
+    .reviews img{
+        width: 70px;
+        height: 70px;
+        margin-top:5px;
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+     
+    .reviews h1{
+         text-align: center;
+         font-size: 10px;
+    }
+     
+    .reviews_main_block_1{
+        display: block;
+        margin-left: 0px;
+    }
+     
+    .reviews_block_1{
+         width: 280px;
+         height: 80px;
+         border-radius: 90px;
+         margin: 0px;
+         margin-top: 20px;
+    }
+     
+    .reviews_main_block_2{
+         margin-top: 0px;
+         display: block;
+         margin-left: 0px;
+    }
+     
+    .reviews_block_2{
+         width: 280px;
+         height: 80px;
+         border-radius: 90px;
+         margin: 0px;
+         margin-top: 20px;
+    }
+     
+    /*************************************************/
+    .reviews_text{
+         float: right;
+         margin-right: 20px;
+         margin-top: 0px;
+    }
+     
+    .reviews_text h1{
+         font-size: 10px;
+         text-align: left;
+         margin-bottom: 0px;
+    }
+     
+    .reviews_text p{
+         font-size: 8px;
+         margin-top: 4px;
+    }
+    /*************************************************/
+    .reviews_text_2{
+         float: right;
+         margin-right: 10px;
+         margin-top: 0px;
+    }
+     
+    .reviews_text_2 h1{
+         font-size: 10px;
+         text-align: left;
+         margin-bottom: 0px;
+    }
+     
+    .reviews_text_2 p{
+         font-size: 8px;
+         margin-top: 4px;
+    }
+     
+    /*ENJOY*/
+    /*****************************************************************************************/
+    .enjoy{
+        margin-top: 80px;
+    }
+
+    .enjoy h1{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .enjoy img{
+        width: 160px;
+        height: 140px;
+        float:left;
+        margin-left: -10px;
+    }
+
+    .enjoy p{
+        font-size: 13px;
+        text-align: right;
         margin-right: 20px;
     }
 
-
-    .who_list div{
-        margin-top: 40px;
-    }
-    
-    .who_list p{
-        padding-top: 25px;
-        font-size: 30px;
-        width: 900px;
-    }
-
-    /*REVIEWS*/
-    /*****************************************************************************************/
-    .reviews{
-        margin-top: 900px;
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-
-    .reviews img{
-        width: 210px;
-        height: 210px;
-        margin-top:15px;
-        margin-left: 10px;
-        margin-right: 0px;
-    }
-
-    .reviews h1{
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    .reviews_main_block_1{
-        display: flex;
-    }
-    
-    .reviews_block_1{
-        border: 2px solid black;
-        width: 750px;
-        height: 240px;
-        border-radius: 120px;
-        background-color: #E7E7E7;
-        border-style:none; 
-        margin: 50px;
-    }
-    
-    .reviews_main_block_2{
-        display: flex;
-        margin-top: 60px;
-    }
-    
-    .reviews_block_2{
-        border: 2px solid black;
-        width: 750px;
-        height: 240px;
-        border-radius: 120px;
-        background-color: #E7E7E7;
-        border-style:none; 
-        margin: 50px;
-    }
-
-    /*************************************************/
-    .reviews_text{
-        float: right;
-        margin-right: 30px;
-        margin-top: 0px;
-    }
-
-    .reviews_text h1{
-        font-size: 30px;
-        text-align: left;
-        margin-bottom: 10px;
-    }
-
-    .reviews_text p{
-        font-size: 21px;
-        margin-top: 4px;
-    }
-    /*************************************************/
-    .reviews_text_2{
-        float: right;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-
-    .reviews_text_2 h1{
-        font-size: 30px;
-        text-align: left;
-        margin-bottom: 10px;
-    }
-
-    .reviews_text_2 p{
-        font-size: 21px;
-        margin-top: 4px;
-    }
-
-    /*ENJOY*/
-    /*****************************************************************************************/
-    .enjoy img{
-        width: 680px;
-        height: 570px;
-    }
-
-    .enjoy h1{
-        font-size: 45px;
-    }
-
-    .enjoy p{
-        font-size: 45px;
-        text-align: right;
-    }
-
     .new_client{
         border:2px solid #FC999D;
-        width:700px;
-        height:130px;
+        width:180px;
+        height:60px;
         border-radius: 100px;
         float: right;
-        margin-top: 170px;
-        background-color: #D9CAC7;
-    }
-
-    .new_client p{
-        font-size: 35px;
-        margin-right: 68px;
         margin-top: 20px;
+        margin-right: 30px;
+        background-color: #D9CAC7;
     }
-    
+
+    .new_client p{
+        font-size: 10px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
 }
 
 
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-
-@media screen and (min-width : 1137px){
-    /*************************************************/
-    .reviews_text{
-        float: right;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-
-    .reviews_text h1{
-        font-size: 23px;
-        text-align: left;
-        margin-bottom: 0px;
-    }
-
-    .reviews_text p{
-        font-size: 16px;
-        margin-top: 4px;
-    }
-    /*************************************************/
-    .reviews_text_2{
-        float: right;
-        margin-right: -30px;
-        margin-top: 0px;
-    }
-
-    .reviews_text_2 h1{
-        font-size: 23px;
-        text-align: left;
-        margin-bottom: 0px;
-    }
-
-    .reviews_text_2 p{
-        font-size: 16px;
-        margin-top: 4px;
-    }
-
-    .new_client{
-        width:500px;
-    }
-
-}
-
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-
-@media screen and (min-width : 768px) {
-    .container{
-        max-width: 1136px;
-        margin: 0 auto;
-        padding: 0 10px;
-    }
-
-    .top_panel{
-        height:90px;
-        width:100%;
-        background-color: rgba(63,81,83,0.3);
-    }
-
-    .top_panel img{
-        width: 60px;
-        height: 45px;
-        margin-top: 23px;
-        margin-left: 10px;
-    }
-
-    .top_panel h2{
-        font-size:28px;
-        margin-top: 27px;
-    }
-
-    .top_panel h1{
-        font-size: 25px;
-        margin-top: 30px;
-        margin-right: 60px;
-    }
-
-    .comfort img{
-        margin-top: 80px;
-        margin-left: 0px;
-    }
-
-    .img1{
-        width: 400px;
-    }
+/*TOP PANEL*/
+    /*****************************************************************************************/
 
     /*COMFORT*/
     /*****************************************************************************************/
-    .comfort h1{
-        float:right;
-        font-size:28px;
-        margin-top: 110px;
-        margin-right: 100px;
-    }
-
-    .thanks_block{
-        float:right;
-        text-align: center;
-        border-radius: 100px;
-        width:360px;
-        height:80px;
-        border:2px solid #FC999D;
-        font-size:18px;
-        margin-right: 190px;
-        margin-top: -90px;
-    }
 
     /*OUR SERVICE*/
     /*****************************************************************************************/
-    .our_services{
-        margin-top: 140px;
-    }
-
-    .our_services h1{
-        font-size:35px;
-        text-align: center;
-    }
-    
-    .our_services p{
-        font-size:25px;
-        text-align: center;
-    }
-
-    .our_services img{
-        width:250px;
-        height: 250px;
-    }
-
-    .servece_list p{
-        font-size:19px;
-    }
-
-    .servece_price{
-        border:2px solid #FC999D;
-        width:600px;
-        height:70px;
-        border-radius: 100px;
-        margin: auto;
-        background-color: rgba(217, 202, 199, 0.7);
-    }
-
-    .servece_price h1{
-        margin-top: 18px;
-        font-size: 25px;
-    }
 
     /*WHO WORK*/
     /*****************************************************************************************/
-    .who_work{
-        margin-top: 120px;
-    }
-
-    .who_work h1{
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .who_work img{
-        width: 430px;
-        height: 410px;
-        float: right;
-    }
-
-    .who_text {
-        float: left;
-    }
-    
-    .who_text h1{
-        font-size: 30px;
-        margin-right: 50px;
-    }
-    
-    .who_text p{
-        font-size: 20px;
-        margin-left: 50px;
-    }
-
-    .who_list{
-        display: block;
-        font-size: 18px;
-    }
-
-    .who_list img{
-        width: 50px;
-        height: 50px;
-        float: left;
-        margin-right: 10px;
-    }
-
-    .who_list div{
-        margin-top: 40px;
-        margin-left: 40px;
-    }
-    
-    .who_list p{
-        padding-top: 15px;
-        font-size: 18px;
-        margin-right: 30px;
-        width: 400px;
-    }
 
     /*REVIEWS*/
-    /*****************************************************************************************/
-    .reviews{
-        margin-top: 500px;
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-
-    .reviews img{
-        width: 120px;
-        height: 120px;
-        margin-top:10px;
-        margin-left: 8px;
-        margin-right: 0px;
-    }
-
-    .reviews h1{
-        text-align: center;
-        font-size: 40px;
-        font-weight:500;
-    }
-
-    .reviews_main_block_1{
-        display: flex;
-    }
-
-    .reviews_block_1{
-        border: 2px solid black;
-        width: 470px;
-        height: 140px;
-        border-radius: 90px;
-        background-color: #E7E7E7;
-        border-style:none; 
-        margin: 20px;
-        margin-left: 0px;
-    }
-
-    .reviews_main_block_2{
-        display: flex;
-        margin-top: 40px;
-    }
-
+    /*****************************************************************************************/  
     
-    .reviews_block_2{
-        border: 2px solid black;
-        width: 470px;
-        height: 140px;
-        border-radius: 90px;
-        background-color: #E7E7E7;
-        border-style:none; 
-        margin: 20px;
-        margin-left: 0px;
-    }
-
-    /*************************************************/
-    .reviews_text{
-        float: right;
-        margin-right: 30px;
-        margin-top: 0px;
-    }
-
-    .reviews_text h1{
-        font-size: 20px;
-        text-align: left;
-        margin-bottom: 0px;
-        font-weight:400;
-    }
-
-    .reviews_text p{
-        font-size: 13px;
-        margin-top: 4px;
-    }
-    /*************************************************/
-    .reviews_text_2{
-        float: right;
-        margin-right: 10px;
-        margin-top: 0px;
-    }
-
-    .reviews_text_2 h1{
-        font-size: 20px;
-        text-align: left;
-        margin-bottom: 0px;
-        font-weight:400;
-    }
-
-    .reviews_text_2 p{
-        font-size: 13px;
-        margin-top: 4px;
-    }
-
     /*ENJOY*/
     /*****************************************************************************************/
-    .enjoy{
-        margin-top: 100px;
-    }
-    
-    .enjoy h1{
-        font-size: 35px;
-        text-align: center;
-        font-weight:400;
-    }
-    
-    .enjoy img{
-        width: 480px;
-        height: 390px;
-        float:left;
-    }
-    
-    .enjoy p{
-        font-size: 32px;
-        text-align: right;
-    }
-    
-    .new_client{
-        border:2px solid #FC999D;
-        width:400px;
-        height:70px;
-        border-radius: 100px;
-        float: right;
-        margin-top: 120px;
-        background-color: #D9CAC7;
-    }
-    
-    .new_client p{
-        font-size: 20px;
-        text-align: center;
-        margin-top: 7px;
-    }
-}
 
-@media screen and (min-width : 320px) {
-    .container{
-        max-width: 1136px;
-        margin: 0 auto;
-        padding: 0 10px;
-    }
-
-    .top_panel{
-        height:90px;
-        width:100%;
-        background-color: rgba(63,81,83,0.3);
-    }
-
-    .top_panel img{
-        width: 60px;
-        height: 45px;
-        margin-top: 23px;
-        margin-left: 10px;
-    }
-
-    .top_panel h2{
-        font-size:28px;
-        margin-top: 27px;
-    }
-
-    .top_panel h1{
-        font-size: 25px;
-        margin-top: 30px;
-        margin-right: 60px;
-    }
-
-    .comfort img{
-        margin-top: 80px;
-        margin-left: 0px;
-    }
-
-    .img1{
-        width: 400px;
-    }
-
-    /*COMFORT*/
-    /*****************************************************************************************/
-    .comfort h1{
-        float:right;
-        font-size:28px;
-        margin-top: 110px;
-        margin-right: 100px;
-    }
-
-    .thanks_block{
-        float:right;
-        text-align: center;
-        border-radius: 100px;
-        width:360px;
-        height:80px;
-        border:2px solid #FC999D;
-        font-size:18px;
-        margin-right: 190px;
-        margin-top: -90px;
-    }
-
-    .thanks_block h2{
-        font-size:25px;
-    }
-
-
-    /*OUR SERVICE*/
-    /*****************************************************************************************/
-    .our_services{
-        margin-top: 140px;
-    }
-
-    .our_services h1{
-        font-size:35px;
-        text-align: center;
-    }
-    
-    .our_services p{
-        font-size:25px;
-        text-align: center;
-    }
-
-    .our_services img{
-        width:250px;
-        height: 250px;
-    }
-
-    .servece_list p{
-        font-size:19px;
-    }
-
-    .servece_price{
-        border:2px solid #FC999D;
-        width:600px;
-        height:70px;
-        border-radius: 100px;
-        margin: auto;
-        background-color: rgba(217, 202, 199, 0.7);
-    }
-
-    .servece_price h1{
-        margin-top: 18px;
-        font-size: 25px;
-    }
-
-    /*WHO WORK*/
-    /*****************************************************************************************/
-    .who_work{
-        margin-top: 120px;
-    }
-
-    .who_work h1{
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .who_work img{
-        width: 430px;
-        height: 410px;
-        float: right;
-    }
-
-    .who_text {
-        float: left;
-    }
-    
-    .who_text h1{
-        font-size: 30px;
-        margin-right: 50px;
-    }
-    
-    .who_text p{
-        font-size: 20px;
-        margin-left: 50px;
-    }
-
-    .who_list{
-        display: block;
-        font-size: 18px;
-    }
-
-    .who_list img{
-        width: 50px;
-        height: 50px;
-        float: left;
-        margin-right: 10px;
-    }
-
-    .who_list div{
-        margin-top: 40px;
-        margin-left: 40px;
-    }
-    
-    .who_list p{
-        padding-top: 15px;
-        font-size: 18px;
-        margin-right: 30px;
-        width: 400px;
-    }
-
-    /*REVIEWS*/
-    /*****************************************************************************************/
-    .reviews{
-        margin-top: 800px;
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-
-    .reviews img{
-        width: 120px;
-        height: 120px;
-        margin-top:10px;
-        margin-left: 8px;
-        margin-right: 0px;
-    }
-
-    .reviews h1{
-        text-align: center;
-        font-size: 40px;
-        font-weight:500;
-    }
-
-    .reviews_main_block_1{
-        display: flex;
-    }
-
-    .reviews_block_1{
-        border: 2px solid black;
-        width: 470px;
-        height: 140px;
-        border-radius: 90px;
-        background-color: #E7E7E7;
-        border-style:none; 
-        margin: 20px;
-        margin-left: 0px;
-    }
-
-    .reviews_main_block_2{
-        display: flex;
-        margin-top: 40px;
-    }
-
-    
-    .reviews_block_2{
-        border: 2px solid black;
-        width: 470px;
-        height: 140px;
-        border-radius: 90px;
-        background-color: #E7E7E7;
-        border-style:none; 
-        margin: 20px;
-        margin-left: 0px;
-    }
-
-    /*************************************************/
-    .reviews_text{
-        float: right;
-        margin-right: 30px;
-        margin-top: 0px;
-    }
-
-    .reviews_text h1{
-        font-size: 20px;
-        text-align: left;
-        margin-bottom: 0px;
-        font-weight:400;
-    }
-
-    .reviews_text p{
-        font-size: 13px;
-        margin-top: 4px;
-    }
-    /*************************************************/
-    .reviews_text_2{
-        float: right;
-        margin-right: 10px;
-        margin-top: 0px;
-    }
-
-    .reviews_text_2 h1{
-        font-size: 20px;
-        text-align: left;
-        margin-bottom: 0px;
-        font-weight:400;
-    }
-
-    .reviews_text_2 p{
-        font-size: 13px;
-        margin-top: 4px;
-    }
-
-    /*ENJOY*/
-    /*****************************************************************************************/
-    .enjoy{
-        margin-top: 100px;
-    }
-    
-    .enjoy h1{
-        font-size: 35px;
-        text-align: center;
-        font-weight:400;
-    }
-    
-    .enjoy img{
-        width: 480px;
-        height: 390px;
-        float:left;
-    }
-    
-    .enjoy p{
-        font-size: 32px;
-        text-align: right;
-    }
-    
-    .new_client{
-        border:2px solid #FC999D;
-        width:400px;
-        height:70px;
-        border-radius: 100px;
-        float: right;
-        margin-top: 120px;
-        background-color: #D9CAC7;
-    }
-    
-    .new_client p{
-        font-size: 20px;
-        text-align: center;
-        margin-top: 7px;
-    }
-}
 
